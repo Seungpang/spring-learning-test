@@ -15,7 +15,7 @@ import static org.hamcrest.core.Is.is;
  * ReturnValueController의 주석을 풀고 진행해주세요.
  */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class ReturnValueTest {
+class ReturnValueTest {
 
     @LocalServerPort
     int port;

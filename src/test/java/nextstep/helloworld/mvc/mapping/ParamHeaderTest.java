@@ -12,7 +12,7 @@ import org.springframework.http.MediaType;
 import static org.hamcrest.core.Is.is;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class ParamHeaderTest {
+class ParamHeaderTest {
 
     @LocalServerPort
     int port;

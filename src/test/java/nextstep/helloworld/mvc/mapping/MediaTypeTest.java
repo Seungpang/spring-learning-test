@@ -14,7 +14,7 @@ import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.core.Is.is;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class MediaTypeTest {
+class MediaTypeTest {
 
     @LocalServerPort
     int port;
