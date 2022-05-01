@@ -27,6 +27,7 @@ public class ComponentScanTest {
      * HelloApplication > @SpringBootApplication 설정을 통해 이미 ComponentScan 설정되어있음
      */
     private ApplicationContext getApplicationContext() {
+        // 스프링 컨테이너에서 HelloApplication을 스프링 컨테이너를 통해서 사용!
         ApplicationContext context = new AnnotationConfigApplicationContext(HelloApplication.class);
         String[] beanDefinitionNames = context.getBeanDefinitionNames();
         System.out.println(Arrays.toString(beanDefinitionNames));
